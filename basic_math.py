@@ -76,7 +76,7 @@ def get_mean(number_list):
     for i in number_list:
         mean += i
     mean /= len(number_list)
-    return int(mean)
+    return mean
 
 
 def get_median(number_list):
